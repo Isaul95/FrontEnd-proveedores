@@ -45,7 +45,7 @@ export class AgregarComponent implements OnInit{
 
       if(data.code=='200'){
         Swal.fire('Proveedor guardado', data.descripcion, 'success');
-        //window.location.href = '/listar';
+        window.location.href = '/listar';
       }else{
         Swal.fire('Error', data.descripcion, 'warning');
       }
