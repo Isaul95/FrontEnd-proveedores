@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background: #f5f5f5;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Cada componente tendra un ancho del 100%*/
+.full-width{
+ width: 100%;
+}
+
+
+.header{
+  background: #e0dcdc;
+}
+
+
+.mltop{
+    margin-top: 60px !important;
+   }
+
+.labelVersion{
+    margin-left: 660px !important;
+    margin-top: 240px !important;
+}
+
+.newProv{
+  margin-left: 950px !important;
+}
